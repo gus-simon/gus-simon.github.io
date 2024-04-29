@@ -1,6 +1,6 @@
 baseURL: https://gus.nz
 languageCode: en-us
-title: Gus Simon
+title: Gus's Blog
 theme: ["PaperMod"]
 
 menu:
@@ -17,6 +17,47 @@ menu:
       name: contacts
       url: /contacts/
       weight: 30
+    - identifier: search
+      name: search
+      url: search
+      layout: search
 
 params:
+  env: production
+  title: Gus's Blog
+  description: "IaC, Azure, and experimentation"
+  author: Gus
+
+  defaultTheme: dark
   ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowWordCounts: true
+  VisitCount: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  ShowLastMod: true
+  socialIcons:
+    - name: github
+      url: "https://github.com/gus-simon"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/gustavoasimon/"
+  #assets:
+  #      favicon: "k-48.png"
+  #      favicon16x16: "k-48.png"
+  #      favicon32x32: "k-48.png"
+  #      apple_touch_icon: "k-48.png"
+  #      safari_pinned_tab: "k-48.png"
+  markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        # anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+        # noClasses: false
+        style: monokai
+        lineNos: false
