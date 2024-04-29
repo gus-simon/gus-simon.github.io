@@ -1,4 +1,22 @@
-baseURL: https://gsimon.org/
+baseURL: https://gus.nz
 languageCode: en-us
-title: Gus Blog
+title: Gus Simon
 theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: contacts
+      name: contacts
+      url: /contacts/
+      weight: 30
+
+params:
+  ShowShareButtons: true
