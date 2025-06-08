@@ -1,8 +1,8 @@
 +++
-title = 'Post Number 0'
-date = 2024-04-24T15:29:14+12:00
+title = 'Forex Strong Weak Analysis - Trading the trend'
+date = 2025-06-08T15:47:14+12:00
 draft = false
-showToc = true
+showToc = false
 [params]
   ShareButtons = ["linkedin", "reddit"]
 +++
