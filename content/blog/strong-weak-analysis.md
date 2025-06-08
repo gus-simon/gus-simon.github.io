@@ -7,7 +7,7 @@ showToc = false
   ShareButtons = ["linkedin", "reddit"]
 +++
 
-## Strong Weak Analysis - trading the trend
+## A consolidated approach to filter your options
 
 Some time ago I got into [this post](https://forums.babypips.com/t/trading-the-trend-with-strong-weak-analysis/77959/1) from Dennis3450, where he mentions his analysis to define the strong and weak forex pairs, basing it on the difference between one currency and JPY daily close and 4h 200 MA.
 
