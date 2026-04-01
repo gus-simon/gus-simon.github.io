@@ -60,4 +60,3 @@ params:
         lineNos: true
         # noClasses: false
         style: monokai
-        lineNos: false
