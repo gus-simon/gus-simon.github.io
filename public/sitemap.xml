@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gus.nz/blog/</loc>
+    <lastmod>2025-06-08T15:47:14+12:00</lastmod>
+  </url><url>
+    <loc>https://gus.nz/blog/strong-weak-analysis/</loc>
+    <lastmod>2025-06-08T15:47:14+12:00</lastmod>
+  </url><url>
     <loc>https://gus.nz/contacts/</loc>
-    <lastmod>2024-04-26T09:15:19+12:00</lastmod>
+    <lastmod>2026-04-02T09:00:00+12:00</lastmod>
   </url><url>
     <loc>https://gus.nz/</loc>
     <lastmod>2024-04-26T09:15:19+12:00</lastmod>
-  </url><url>
-    <loc>https://gus.nz/blog/</loc>
-    <lastmod>2024-04-24T15:29:14+12:00</lastmod>
   </url><url>
     <loc>https://gus.nz/blog/post0/</loc>
     <lastmod>2024-04-24T15:29:14+12:00</lastmod>

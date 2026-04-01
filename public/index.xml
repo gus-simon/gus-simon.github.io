@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Welcome on Gus's Blog</title><link>http://localhost:1313/</link><description>Recent content in Welcome on Gus's Blog</description><generator>Hugo -- 0.125.0</generator><language>en-us</language><lastBuildDate>Wed, 24 Apr 2024 15:29:14 +1200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>Post Number 0</title><link>http://localhost:1313/blog/post0/</link><pubDate>Wed, 24 Apr 2024 15:29:14 +1200</pubDate><guid>http://localhost:1313/blog/post0/</guid><description>There will be something here soon Pinky promise!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on Gus&#39;s Blog</title>
+    <link>https://gus.nz/</link>
+    <description>Recent content in Welcome on Gus&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Jun 2025 15:47:14 +1200</lastBuildDate>
+    <atom:link href="https://gus.nz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forex Strong Weak Analysis - Trading the trend</title>
+      <link>https://gus.nz/blog/strong-weak-analysis/</link>
+      <pubDate>Sun, 08 Jun 2025 15:47:14 +1200</pubDate>
+      <guid>https://gus.nz/blog/strong-weak-analysis/</guid>
+      <description>&lt;h2 id=&#34;a-consolidated-approach-to-filter-your-options&#34;&gt;A consolidated approach to filter your options&lt;/h2&gt;&#xA;&lt;p&gt;Some time ago I got into &lt;a href=&#34;https://forums.babypips.com/t/trading-the-trend-with-strong-weak-analysis/77959/1&#34;&gt;this post&lt;/a&gt; from Dennis3450, where he mentions his analysis to define the strong and weak forex pairs, basing it on the difference between one currency and JPY daily close and 4h 200 MA.&lt;/p&gt;&#xA;&lt;p&gt;Based on how the calculations are made, I decided to create a simple Python script to automate the process. It runs everyday at 9PM UTC and publishes the results automatically to &lt;a href=&#34;https://sw.gus.nz&#34;&gt;https://sw.gus.nz&lt;/a&gt;. This is just an initial test and with time I plan to improve how the data is presented.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post Number 0</title>
+      <link>https://gus.nz/blog/post0/</link>
+      <pubDate>Wed, 24 Apr 2024 15:29:14 +1200</pubDate>
+      <guid>https://gus.nz/blog/post0/</guid>
+      <description>&lt;h2 id=&#34;there-will-be-something-here-soon&#34;&gt;There will be something here soon&lt;/h2&gt;&#xA;&lt;p&gt;Pinky promise!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>https://gus.nz/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gus.nz/search/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
