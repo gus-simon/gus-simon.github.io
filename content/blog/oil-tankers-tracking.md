@@ -1,8 +1,15 @@
 ---
 title: 'Oil Tankers Tracking'
-date: 2026-04-02T19:08:56+13:00
+date: 2026-04-01T09:08:56+13:00
 draft: false
 showToc: true
+description: Daily vessel snapshots, AIS classification, and a small API focused on oil tankers relevant to New Zealand.
+tags:
+  - nodejs
+  - typescript
+  - ais
+  - api
+category: Project
 params:
   ShareButtons: ["linkedin", "reddit"]
 ---

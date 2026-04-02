@@ -3,6 +3,9 @@ title = 'Forex Strong Weak Analysis - Trading the trend'
 date = 2025-06-08T15:47:14+12:00
 draft = false
 showToc = false
+description = 'A small Python workflow that calculates strong/weak signals, stores the results, and publishes a static dashboard.'
+tags = ['python', 'trading', 'automation', 'static-site']
+category = 'Project'
 [params]
   ShareButtons = ["linkedin", "reddit"]
 +++

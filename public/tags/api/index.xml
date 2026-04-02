@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api on Gus's Blog</title><link>https://gus.nz/tags/api/</link><description>Recent content in Api on Gus's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2026 09:08:56 +1300</lastBuildDate><atom:link href="https://gus.nz/tags/api/index.xml" rel="self" type="application/rss+xml"/><item><title>Oil Tankers Tracking</title><link>https://gus.nz/blog/oil-tankers-tracking/</link><pubDate>Wed, 01 Apr 2026 09:08:56 +1300</pubDate><guid>https://gus.nz/blog/oil-tankers-tracking/</guid><description>&lt;h2 id="tracking-oil-tankers-bound-for-new-zealand"&gt;
+ &lt;a href="#tracking-oil-tankers-bound-for-new-zealand" class="md-heading-anchor"&gt;
+ Tracking oil tankers bound for New Zealand
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This project started as a practical way to keep an eye on oil tankers that are either heading to recognised New Zealand destinations or are already in, or have recently arrived at, Marsden Point. Instead of building a large tracking platform, the idea here is to keep the scope narrow: collect the vessel data that matters, classify it, store a daily snapshot, and expose it through a small API.&lt;/p&gt;</description></item></channel></rss>

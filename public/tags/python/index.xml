@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Gus's Blog</title><link>https://gus.nz/tags/python/</link><description>Recent content in Python on Gus's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 08 Jun 2025 15:47:14 +1200</lastBuildDate><atom:link href="https://gus.nz/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Forex Strong Weak Analysis - Trading the trend</title><link>https://gus.nz/blog/strong-weak-analysis/</link><pubDate>Sun, 08 Jun 2025 15:47:14 +1200</pubDate><guid>https://gus.nz/blog/strong-weak-analysis/</guid><description>&lt;h2 id="a-consolidated-approach-to-filter-your-options"&gt;
+ &lt;a href="#a-consolidated-approach-to-filter-your-options" class="md-heading-anchor"&gt;
+ A consolidated approach to filter your options
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Some time ago I got into &lt;a
+ href="https://forums.babypips.com/t/trading-the-trend-with-strong-weak-analysis/77959/1"
+ target="_blank" rel="noopener"
+ class="md-link"
+&gt;
+ this post
+&lt;/a&gt;
+ from Dennis3450, and I liked the idea enough to turn it into a small coding project. What started as a way to automate one type of market analysis became a nice exercise in Python, data storage, scheduled jobs, and static site generation.&lt;/p&gt;
+&lt;p&gt;The project itself is intentionally simple. A Python script fetches the daily close and 4h candles for a set of JPY pairs, calculates the percentage distance from the 4h 200 MA, and stores each result with its date. These days I am using Turso for that storage layer, which makes it easier to keep the historical dataset available without depending on a single local database file. The script still supports the older SQLite-based setup, but &lt;a
+ href="https://turso.tech/"
+ target="_blank" rel="noopener"
+ class="md-link"
+&gt;
+ Turso
+&lt;/a&gt;
+ is now the main path.&lt;/p&gt;</description></item></channel></rss>

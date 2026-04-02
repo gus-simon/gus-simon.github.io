@@ -1,62 +1,189 @@
-baseURL: https://gus.nz
+baseURL: https://gus.nz/
 languageCode: en-us
 title: Gus's Blog
-theme: ["PaperMod"]
+theme: minimal-black
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+    - WebAppManifest
+
+outputFormats:
+  WebAppManifest:
+    mediaType: application/manifest+json
+    rel: manifest
+    baseName: manifest
+    isPlainText: true
+    notAlternative: true
 
 menu:
   main:
+    - identifier: home
+      name: Home
+      pageRef: /
+      url: /
+      weight: 1
+      params:
+        icon: fa-solid fa-house
     - identifier: blog
-      name: blog
+      name: Blog
+      pageRef: blog
       url: /blog/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+      weight: 2
+      params:
+        icon: fa-regular fa-note-sticky
+    - identifier: about
+      name: About
+      pageRef: about
+      url: /about/
+      weight: 3
+      params:
+        icon: fa-regular fa-user
     - identifier: contacts
-      name: contacts
+      name: Contacts
+      pageRef: contacts
       url: /contacts/
-      weight: 30
-    - identifier: search
-      name: search
-      url: search
-      layout: search
+      weight: 4
+      params:
+        icon: fa-regular fa-address-card
 
 params:
-  env: production
-  title: Gus's Blog
-  description: "IaC, Azure, and experimentation"
+  brand: Gus
   author: Gus
+  description: IaC, Azure, and experimentation
+  favicon: icons/favicon.svg
+  appletouchicon: icons/apple-touch-icon.png
+  themegit: https://gitlab.com/jimchr12/hugo-minimal-black
+  blogIntro: Write-ups on infrastructure, small software experiments, and the systems around them.
 
-  defaultTheme: dark
-  ShowShareButtons: true
-  ShowReadingTime: true
-  ShowBreadCrumbs: true
-  ShowWordCounts: true
-  VisitCount: true
-  ShowCodeCopyButtons: true
-  ShowToc: true
-  TocOpen: false
-  ShowLastMod: true
-  socialIcons:
-    - name: github
-      url: "https://github.com/gus-simon"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/gustavoasimon/"
-  #assets:
-  #      favicon: "k-48.png"
-  #      favicon16x16: "k-48.png"
-  #      favicon32x32: "k-48.png"
-  #      apple_touch_icon: "k-48.png"
-  #      safari_pinned_tab: "k-48.png"
-  markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        # anchorLineNos: true
-        codeFences: true
-        guessSyntax: true
-        lineNos: true
-        # noClasses: false
-        style: monokai
+  manifest:
+    themeColor: "#a855f7"
+    backgroundColor: "#000000"
+    categories:
+      - blog
+      - technology
+      - developer
+
+  theme:
+    defaultTheme: dark
+
+  home:
+    sections:
+      - hero
+      - now
+      - tech-marquee
+      - posts
+    showNowSection: true
+    showFeaturedProjects: false
+    showLatestPosts: true
+    latestPostsLimit: 3
+    blogTitle: Latest Writing
+    blogSubtitle: Notes and project writeups from the lab.
+    techVariant: compact
+    tech:
+      - label: Azure
+        icon: devicon-azure-plain
+      - label: Terraform
+        icon: devicon-terraform-plain
+      - label: Hugo
+        icon: devicon-hugo-plain
+      - label: GitHub
+        icon: devicon-github-original
+      - label: TypeScript
+        icon: devicon-typescript-plain
+      - label: Node.js
+        icon: devicon-nodejs-plain
+    techReverse:
+      - label: Python
+        icon: devicon-python-plain
+      - label: Docker
+        icon: devicon-docker-plain
+      - label: Podman
+        icon: devicon-podman-plain
+      - label: SQLite
+        icon: devicon-sqlite-plain
+      - label: Linux
+        icon: devicon-linux-plain
+      - label: Git
+        icon: devicon-git-plain
+
+  hero:
+    badge: Personal site
+    title: "Hi, I'm Gus."
+    role: I work across infrastructure as code, Azure, automation, and small practical tools.
+    summary: This is where I document projects, capture what I learn, and experiment with static sites, cloud infrastructure, and software that solves a narrow problem well.
+    location: New Zealand
+    focus: Building useful things, keeping them simple, and writing down the interesting parts.
+    available: false
+    nowLabel: Right now
+    nowIntro: "Lately I have been focused on:"
+    now:
+      - Turning small side projects into clear write-ups instead of leaving them half-documented.
+      - Exploring Azure and infrastructure-as-code workflows that stay practical at personal-project scale.
+      - Using Hugo and GitHub Pages as a low-friction way to publish experiments and notes.
+    techMarqueeLabel: Working with
+    primary:
+      label: Read the blog
+      href: /blog/
+    secondary:
+      label: Learn more about me
+      href: /about/
+
+  icons:
+    useFontAwesome: true
+    useDevicon: true
+
+  social:
+    - label: GitHub
+      url: https://github.com/gus-simon
+      icon: fa-brands fa-github
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/gustavoasimon/
+      icon: fa-brands fa-linkedin-in
+    - label: Email
+      url: mailto:gus@gus.nz
+      icon: fa-regular fa-envelope
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+    extensions:
+      typographer: true
+      linkify: true
+      table: true
+      strikethrough: true
+      taskList: true
+      definitionList: true
+      footnote: true
+      extras:
+        delete:
+          enable: true
+        insert:
+          enable: true
+        mark:
+          enable: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    lineNumbersInTable: false
+    noClasses: false
+    style: monokai
+    tabWidth: 2
+
+taxonomies:
+  tag: tags
+  category: categories
+
+privacy:
+  youtube:
+    privacyEnhanced: true
