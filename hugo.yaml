@@ -50,7 +50,7 @@ menu:
         icon: fa-regular fa-address-card
 
 params:
-  brand: Gus
+  brand: Gus personal blog
   author: Gus
   description: IaC, Azure, and experimentation
   favicon: icons/favicon.svg
@@ -64,7 +64,8 @@ params:
     categories:
       - blog
       - technology
-      - developer
+      - cloud
+      - automation
 
   theme:
     defaultTheme: dark
@@ -91,27 +92,22 @@ params:
         icon: devicon-hugo-plain
       - label: GitHub
         icon: devicon-github-original
-      - label: TypeScript
-        icon: devicon-typescript-plain
-      - label: Node.js
-        icon: devicon-nodejs-plain
-    techReverse:
-      - label: Python
-        icon: devicon-python-plain
-      - label: Docker
-        icon: devicon-docker-plain
-      - label: Podman
-        icon: devicon-podman-plain
-      - label: SQLite
-        icon: devicon-sqlite-plain
-      - label: Linux
-        icon: devicon-linux-plain
       - label: Git
         icon: devicon-git-plain
+      - label: Podman
+        icon: devicon-podman-plain
+      - label: Linux
+        icon: devicon-linux-plain
+      - label: Azue DevOps
+        icon: devicon-azuredevops-plain
+      - label: Azue DevOps
+        icon: devicon-azuredevops-plain
+      - label: Powershell
+        icon: devicon-powershell-plain        
 
   hero:
-    badge: Personal site
-    title: "Hi, I'm Gus."
+    badge: Gus's Blog
+    title: "Hi there."
     role: I work across infrastructure, operations, and automation, with a focus on understanding how things work and making them practical to run.
     summary: I am not a developer by trade, but I enjoy turning technical ideas into maintainable, operational solutions that follow recommended practices, stay as simple as possible, and still respect the complexity of the enterprise world. The projects shared here are personal projects and are not necessarily related to any customer work.
     location: New Zealand
