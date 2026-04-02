@@ -112,10 +112,10 @@ params:
   hero:
     badge: Personal site
     title: "Hi, I'm Gus."
-    role: I work across infrastructure as code, Azure, automation, and small practical tools.
-    summary: This is where I document projects, capture what I learn, and experiment with static sites, cloud infrastructure, and software that solves a narrow problem well.
+    role: I work across infrastructure, operations, and automation, with a focus on understanding how things work and making them practical to run.
+    summary: I am not a developer by trade, but I enjoy turning technical ideas into maintainable, operational solutions that follow recommended practices, stay as simple as possible, and still respect the complexity of the enterprise world. The projects shared here are personal projects and are not necessarily related to any customer work.
     location: New Zealand
-    focus: Building useful things, keeping them simple, and writing down the interesting parts.
+    focus: Building useful things that are efficient, easier to maintain, and realistic to operate over time.
     available: false
     nowLabel: Right now
     nowIntro: "Lately I have been focused on:"
@@ -123,7 +123,7 @@ params:
       - Turning small side projects into clear write-ups instead of leaving them half-documented.
       - Exploring Azure and infrastructure-as-code workflows that stay practical at personal-project scale.
       - Using Hugo and GitHub Pages as a low-friction way to publish experiments and notes.
-    techMarqueeLabel: Working with
+    techMarqueeLabel: Areas I work across
     primary:
       label: Read the blog
       href: /blog/
