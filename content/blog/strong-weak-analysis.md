@@ -9,6 +9,9 @@ category = 'Project'
 [params]
   ShareButtons = ["linkedin", "reddit"]
 +++
+## The page
+
+[Strong/Weak Analysis - https://sw.gus.nz](https://sw.gus.nz)
 
 ## A consolidated approach to filter your options
 
