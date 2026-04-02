@@ -100,8 +100,6 @@ params:
         icon: devicon-linux-plain
       - label: Azue DevOps
         icon: devicon-azuredevops-plain
-      - label: Azue DevOps
-        icon: devicon-azuredevops-plain
       - label: Powershell
         icon: devicon-powershell-plain        
 
