@@ -106,10 +106,10 @@ params:
   hero:
     badge: 42 is the answer. Curiosity is the point.
     title: "Hi there, I'm Gus!"
-    role: I enjoy figuring out how things work and making them easier to run in practice.
-    summary: This site is a place for project notes, practical experiments, and the occasional useful rabbit hole. Most of what you will find here is about infrastructure as code, Azure, automation, Hugo, and small software projects built to solve a specific problem well.
+    role: I enjoy turning interesting technical problems into things that are clearer, calmer, fun, and easier to run.
+    summary: This is a home for project write-ups, experiments, and practical lessons from building small things with cloud tools, automation, and code.
     location: New Zealand
-    focus: Building useful things that are simpler to maintain, practical to operate, and worth keeping around.
+    focus: Building useful things that are simpler to maintain, practical to operate that can run autonomously and worth keeping around.
     available: false
     nowLabel: Right now
     nowIntro: "Lately I have been focused on:"
