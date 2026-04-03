@@ -1,5 +1,5 @@
 baseURL: https://gus.nz/
-languageCode: en-us
+languageCode: en-nz
 title: Gus's Blog
 theme: minimal-black
 
@@ -50,7 +50,7 @@ menu:
         icon: fa-regular fa-address-card
 
 params:
-  brand: Gus personal blog
+  brand: Notes and experiments from the lab
   author: Gus
   description: IaC, Azure, and experimentation
   favicon: icons/favicon.svg
@@ -104,12 +104,12 @@ params:
         icon: devicon-powershell-plain        
 
   hero:
-    badge: Gus's Blog
-    title: "Hi there."
-    role: I work across infrastructure, operations, and automation, with a focus on understanding how things work and making them practical to run.
-    summary: I am not a developer by trade, but I enjoy turning technical ideas into maintainable, operational solutions that follow recommended practices, stay as simple as possible, and still respect the complexity of the enterprise world. The projects shared here are personal projects and are not necessarily related to any customer work.
+    badge: The Lab
+    title: "Hi there, I'm Gus!"
+    role: I work across infrastructure, operations, and automation, and I enjoy figuring out how things work and making them easier to run in practice.
+    summary: This site is a place for project notes, practical experiments, and the occasional useful rabbit hole. Most of what you will find here is about infrastructure as code, Azure, automation, Hugo, and small software projects built to solve a specific problem well.
     location: New Zealand
-    focus: Building useful things that are efficient, easier to maintain, and realistic to operate over time.
+    focus: Building useful things that are simpler to maintain, practical to operate, and worth keeping around.
     available: false
     nowLabel: Right now
     nowIntro: "Lately I have been focused on:"
